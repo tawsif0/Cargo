@@ -347,6 +347,7 @@ html {
 .img-logo {
   width: 100px;
   margin-top: 0.5rem;
+  filter: brightness(0) invert(1);
 }
 
 .header_menu {
