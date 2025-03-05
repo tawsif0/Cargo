@@ -715,7 +715,7 @@ strong {
 
 .about_me {
   padding-bottom: 15.5rem;
-  padding-top: 17.5rem;
+
   display: flex;
 }
 
@@ -881,6 +881,7 @@ h6 {
 
 .about_ido {
   padding-bottom: 12.5rem;
+  padding-top: 8.5rem;
   position: relative;
 }
 
@@ -1810,7 +1811,7 @@ img {
 
   .about_ido_coffee {
     bottom: unset;
-    top: calc(0px - 10rem / 3);
+    top: calc(0px - 1rem / 4);
     left: calc(0px - 19rem / 3);
     width: 280px;
   }
@@ -2217,8 +2218,8 @@ img {
 }
 @media (max-width: 768px) {
   .about_ido_mouse {
-    right: 25px; /* Move slightly inward on smaller screens */
-    top: 0.1rem; /* Adjust bottom position for better visibility */
+    right: 32px;
+    top: 5rem;
     width: 120px; /* Reduce size for smaller screens */
     animation: takeOffMobile 3s ease-in-out infinite alternate;
   }
