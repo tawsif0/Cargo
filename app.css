@@ -1208,14 +1208,17 @@ img {
   cursor: pointer;
   display: flex;
   height: var(--initial-height);
-
   overflow: hidden;
   position: relative;
   padding-bottom: 3.6507936508vh;
-  padding-top: 25.7738095238vh;
+  padding-top: 35.7738095238vh;
   transition: height 0.5s ease;
 }
-
+@media (max-width: 1200px) {
+  .videoPlayer {
+    padding-top: 0;
+  }
+}
 .videoPlayer video {
   aspect-ratio: 9 / 16;
   height: 100%;
